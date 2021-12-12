@@ -28,3 +28,8 @@ Route::get('/putnab', function () {
 Route::get('/dashboard', function () {
     return view('ddashboard.dashboard');
 });
+
+Route::get('/dashboard', function () {
+    return view('product');
+});
+
